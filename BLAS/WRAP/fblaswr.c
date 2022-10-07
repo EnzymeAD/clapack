@@ -7,7 +7,7 @@
  * ===========================================================================
  */
 
-doublereal 
+real 
 f2c_sdot(integer* N, 
          real* X, integer* incX, 
          real* Y, integer* incY)
