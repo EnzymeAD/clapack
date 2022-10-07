@@ -40,7 +40,7 @@ enum CBLAS_SIDE		{CblasLeft=141, CblasRight=142};
  * ===========================================================================
  */
 
-doublereal 
+real 
 f2c_sdot(integer* N, 
          real* X, integer* incX, 
          real* Y, integer* incY)
