@@ -370,7 +370,7 @@ L40:
     integer i__, j, ki, kn, mx, my;
     real sx[7], sy[7], stx[7], sty[7];
     integer lenx, leny;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     integer ksize;
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *), sswap_(integer *, real *, integer *, real *, integer *

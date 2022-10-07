@@ -21,7 +21,7 @@
 
     /* Local variables */
     real c__, a11, a12, a22, tau;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int slas2_(real *, real *, real *, real *, real *)
 	    ;
     real ssmax;

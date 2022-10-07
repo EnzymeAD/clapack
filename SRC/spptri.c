@@ -27,7 +27,7 @@ static integer c__1 = 1;
     integer j, jc, jj;
     real ajj;
     integer jjn;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int sspr_(char *, integer *, real *, real *, 
 	    integer *, real *);
     extern logical lsame_(char *, char *);

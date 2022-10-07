@@ -27,7 +27,7 @@ static integer c__1 = 1;
     real r__1;
 
     /* Local variables */
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int ssyr2_(char *, integer *, real *, real *, 
 	    integer *, real *, integer *, real *, integer *);
     real alpha;

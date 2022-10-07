@@ -27,7 +27,7 @@ static real c_b14 = 1.f;
     /* Local variables */
     integer i__, j, k;
     real t, eps;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int ssyr_(char *, integer *, real *, real *, 
 	    integer *, real *, integer *);
     extern logical lsame_(char *, char *);

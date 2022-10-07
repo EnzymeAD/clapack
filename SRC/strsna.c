@@ -44,7 +44,7 @@ static logical c_false = FALSE_;
     real dumm, prod;
     integer ifst;
     real lnrm;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     integer ilst;
     real rnrm, prod1, prod2;
     extern doublereal snrm2_(integer *, real *, integer *);

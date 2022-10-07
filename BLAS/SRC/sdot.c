@@ -13,7 +13,7 @@
 #include "f2c.h"
 #include "blaswrap.h"
 
-doublereal sdot_(integer *n, real *sx, integer *incx, real *sy, integer *incy)
+real sdot_(integer *n, real *sx, integer *incx, real *sy, integer *incy)
 {
     /* System generated locals */
     integer i__1;

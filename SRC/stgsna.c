@@ -46,7 +46,7 @@ static integer c__3 = 3;
     real uhav, uhbv;
     integer ifst;
     real lnrm;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     integer ilst;
     real rnrm;
     extern /* Subroutine */ int slag2_(real *, integer *, real *, integer *, 

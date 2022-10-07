@@ -29,7 +29,7 @@ static integer c__1 = 1;
     integer j;
     real t;
     integer kd, lm, jp, ix, kase;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     integer kase1;
     real scale;
     extern logical lsame_(char *, char *);

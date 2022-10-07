@@ -41,7 +41,7 @@ static real c_b35 = 1.f;
     integer kbl, igl, ibr, jgl, mvl, nblc;
     real aapp, aapq, aaqq;
     integer nblr, ierr;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real aapp0, temp1;
     extern doublereal snrm2_(integer *, real *, integer *);
     real large, apoaq, aqoap;

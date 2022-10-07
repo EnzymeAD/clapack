@@ -270,7 +270,7 @@ doublereal scnrm2_(integer *n, complex *x, integer *incx);
 /* Subroutine */ int scopy_(integer *n, real *sx, integer *incx, real *sy, 
 	integer *incy);
 
-doublereal sdot_(integer *n, real *sx, integer *incx, real *sy, integer *incy);
+real sdot_(integer *n, real *sx, integer *incx, real *sy, integer *incy);
 
 doublereal sdsdot_(integer *n, real *sb, real *sx, integer *incx, real *sy, 
 	integer *incy);

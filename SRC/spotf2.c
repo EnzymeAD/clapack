@@ -32,7 +32,7 @@ static real c_b12 = 1.f;
     /* Local variables */
     integer j;
     real ajj;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern logical lsame_(char *, char *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *), 
 	    sgemv_(char *, integer *, integer *, real *, real *, integer *, 

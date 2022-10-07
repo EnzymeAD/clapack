@@ -33,7 +33,7 @@ static real c_b36 = .5f;
     real xbnd;
     integer imax;
     real tmax, tjjs;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real xmax, grow, sumj;
     integer maind;
     extern logical lsame_(char *, char *);

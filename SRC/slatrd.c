@@ -28,7 +28,7 @@ static real c_b16 = 0.f;
 
     /* Local variables */
     integer i__, iw;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real alpha;
     extern logical lsame_(char *, char *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *), 

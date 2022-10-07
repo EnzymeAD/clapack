@@ -32,7 +32,7 @@ static real c_b13 = 0.f;
     real t, ak;
     integer kp;
     real akp1, temp;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real akkp1;
     extern logical lsame_(char *, char *);
     integer kstep;

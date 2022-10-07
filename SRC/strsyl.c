@@ -38,7 +38,7 @@ static logical c_true = TRUE_;
     real a11, db, da11, vec[4]	/* was [2][2] */, dum[1], eps, sgn;
     integer ierr;
     real smin;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real suml, sumr;
     extern logical lsame_(char *, char *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);

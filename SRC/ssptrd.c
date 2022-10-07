@@ -28,7 +28,7 @@ static real c_b14 = -1.f;
     /* Local variables */
     integer i__, i1, ii, i1i1;
     real taui;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int sspr2_(char *, integer *, real *, real *, 
 	    integer *, real *, integer *, real *);
     real alpha;

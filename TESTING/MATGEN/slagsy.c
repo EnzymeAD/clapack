@@ -36,7 +36,7 @@ static real c_b26 = 1.f;
     real wa, wb, wn, tau;
     extern /* Subroutine */ int sger_(integer *, integer *, real *, real *, 
 	    integer *, real *, integer *, real *, integer *);
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *), 
+    extern real sdot_(integer *, real *, integer *, real *, integer *), 
 	    snrm2_(integer *, real *, integer *);
     extern /* Subroutine */ int ssyr2_(char *, integer *, real *, real *, 
 	    integer *, real *, integer *, real *, integer *);

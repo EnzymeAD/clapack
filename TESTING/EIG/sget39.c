@@ -49,7 +49,7 @@ static real c_b59 = -1.f;
 	    vm4[5], vm5[3], dum[1], eps;
     integer ivm1, ivm2, ivm3, ivm4, ivm5, ndim, info;
     real dumm;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real norm, work[10], scale, domin, resid;
     extern /* Subroutine */ int sgemv_(char *, integer *, integer *, real *, 
 	    real *, integer *, real *, integer *, real *, real *, integer *);

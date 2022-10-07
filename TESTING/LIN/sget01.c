@@ -28,7 +28,7 @@ static integer c_n1 = -1;
     /* Local variables */
     integer i__, j, k;
     real t, eps;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     real anorm;
     extern /* Subroutine */ int sgemv_(char *, integer *, integer *, real *, 

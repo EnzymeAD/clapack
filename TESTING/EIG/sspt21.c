@@ -30,7 +30,7 @@ static real c_b26 = 1.f;
     /* Local variables */
     integer j, jp, jr, jp1, lap;
     real ulp, unfl, temp;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int sspr_(char *, integer *, real *, real *, 
 	    integer *, real *), sspr2_(char *, integer *, real *, 
 	    real *, integer *, real *, integer *, real *);

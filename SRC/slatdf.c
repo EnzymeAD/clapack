@@ -36,7 +36,7 @@ static real c_b37 = -1.f;
     real bm, bp, xm[8], xp[8];
     integer info;
     real temp;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real work[32];
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     real pmone;

@@ -27,7 +27,7 @@ static integer c__1 = 1;
     /* Local variables */
     integer i__;
     real aii;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern logical lsame_(char *, char *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *), 
 	    sgemv_(char *, integer *, integer *, real *, real *, integer *, 

@@ -33,7 +33,7 @@ static real c_b11 = 1.f;
     real akk;
     integer k1k1;
     real bjj, bkk;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int sspr2_(char *, integer *, real *, real *, 
 	    integer *, real *, integer *, real *);
     extern logical lsame_(char *, char *);

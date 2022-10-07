@@ -35,7 +35,7 @@ static real c_b8 = 1.f;
     real dj, rho;
     integer iwk1, iwk2, iwk3;
     real temp;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     integer iwk2i, iwk3i;
     extern doublereal snrm2_(integer *, real *, integer *);
     real diflj, difrj, dsigj;

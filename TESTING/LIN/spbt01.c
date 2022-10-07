@@ -30,7 +30,7 @@ static real c_b14 = 1.f;
     integer kc, ml, mu;
     real eps;
     integer klen;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     extern /* Subroutine */ int ssyr_(char *, integer *, real *, real *, 
 	    integer *, real *, integer *);
     extern logical lsame_(char *, char *);

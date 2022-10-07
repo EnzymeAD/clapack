@@ -47,7 +47,7 @@ static integer c__2 = 2;
     integer mvl;
     real aapp, aapq, aaqq, ctol;
     integer ierr;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real aapp0, temp1;
     extern doublereal snrm2_(integer *, real *, integer *);
     real scale, large, apoaq, aqoap;

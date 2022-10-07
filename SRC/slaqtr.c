@@ -38,7 +38,7 @@ static logical c_true = TRUE_;
     real si, xj, sr, rec, eps, tjj, tmp;
     integer ierr;
     real smin;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real xmax;
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     integer jnext;

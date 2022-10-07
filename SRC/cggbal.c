@@ -44,7 +44,7 @@ static real c_b72 = .5f;
     real beta, coef;
     integer irab, lrab;
     real basl, cmax;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     real coef2, coef5, gamma, alpha;
     extern logical lsame_(char *, char *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);

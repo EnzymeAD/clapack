@@ -36,7 +36,7 @@ static integer c_n1 = -1;
     integer its;
     real xjm, eps1;
     integer jblk, nblk, jmax;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *), 
+    extern real sdot_(integer *, real *, integer *, real *, integer *), 
 	    snrm2_(integer *, real *, integer *);
     integer iseed[4], gpind, iinfo;
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);

@@ -42,7 +42,7 @@ static logical c_true = TRUE_;
     logical pair, allv;
     integer ierr;
     real unfl, ovfl, smin;
-    extern doublereal sdot_(integer *, real *, integer *, real *, integer *);
+    extern real sdot_(integer *, real *, integer *, real *, integer *);
     logical over;
     real vmax;
     integer jnxt;
