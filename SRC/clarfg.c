@@ -34,7 +34,7 @@ static complex c_b5 = {1.f,0.f};
     extern /* Subroutine */ int cscal_(integer *, complex *, complex *, 
 	    integer *);
     real alphi, alphr, xnorm;
-    extern doublereal scnrm2_(integer *, complex *, integer *), slapy3_(real *
+    extern real scnrm2_(integer *, complex *, integer *), slapy3_(real *
 , real *, real *);
     extern /* Complex */ VOID cladiv_(complex *, complex *, complex *);
     extern doublereal slamch_(char *);

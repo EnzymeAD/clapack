@@ -47,7 +47,7 @@ static integer c_n1 = -1;
 	    integer *);
     integer icond;
     extern logical lsame_(char *, char *);
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int cgebak_(char *, char *, integer *, integer *, 
 	    integer *, real *, integer *, complex *, integer *, integer *), cgebal_(char *, integer *, complex *, integer *, 
 	    integer *, integer *, real *, integer *), slabad_(real *, 

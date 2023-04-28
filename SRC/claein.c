@@ -37,7 +37,7 @@ static integer c__1 = 1;
     real scale;
     char trans[1];
     real rtemp, rootn, vnorm;
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern integer icamax_(integer *, complex *, integer *);
     extern /* Complex */ VOID cladiv_(complex *, complex *, complex *);
     extern /* Subroutine */ int csscal_(integer *, real *, complex *, integer 

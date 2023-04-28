@@ -265,7 +265,7 @@ doublereal scabs1_(complex *z__);
 
 doublereal scasum_(integer *n, complex *cx, integer *incx);
 
-doublereal scnrm2_(integer *n, complex *x, integer *incx);
+real scnrm2_(integer *n, complex *x, integer *incx);
 
 /* Subroutine */ int scopy_(integer *n, real *sx, integer *incx, real *sy, 
 	integer *incy);

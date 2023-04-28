@@ -68,7 +68,7 @@ static integer c__4 = 4;
     char sense[1];
     integer isens;
     real tolin, abnrm1;
-    extern doublereal scnrm2_(integer *, complex *, integer *), slamch_(char *
+    extern real scnrm2_(integer *, complex *, integer *), slamch_(char *
 );
     extern /* Subroutine */ int clacpy_(char *, integer *, integer *, complex 
 	    *, integer *, complex *, integer *), xerbla_(char *, 

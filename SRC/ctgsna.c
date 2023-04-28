@@ -53,7 +53,7 @@ static integer c__3 = 3;
     integer lwmin;
     logical wants;
     complex dummy[1];
-    extern doublereal scnrm2_(integer *, complex *, integer *), slapy2_(real *
+    extern real scnrm2_(integer *, complex *, integer *), slapy2_(real *
 , real *);
     complex dummy1[1];
     extern /* Subroutine */ int slabad_(real *, real *);

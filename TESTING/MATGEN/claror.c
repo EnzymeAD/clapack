@@ -45,7 +45,7 @@ static integer c__1 = 1;
     complex csign;
     integer ixfrm, itype, nxfrm;
     real xnorm;
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int clacgv_(integer *, complex *, integer *);
     extern /* Complex */ VOID clarnd_(complex *, integer *, integer *);
     extern /* Subroutine */ int claset_(char *, integer *, integer *, complex 

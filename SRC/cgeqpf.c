@@ -42,7 +42,7 @@ static integer c__1 = 1;
     integer itemp;
     extern /* Subroutine */ int cgeqr2_(integer *, integer *, complex *, 
 	    integer *, complex *, complex *, integer *);
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int cunm2r_(char *, char *, integer *, integer *, 
 	    integer *, complex *, integer *, complex *, complex *, integer *, 
 	    complex *, integer *), clarfp_(integer *, complex 

@@ -35,7 +35,7 @@ static integer c__2 = 2;
     extern /* Subroutine */ int claqp2_(integer *, integer *, integer *, 
 	    complex *, integer *, integer *, complex *, real *, real *, 
 	    complex *);
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int cgeqrf_(integer *, integer *, complex *, 
 	    integer *, complex *, complex *, integer *, integer *), xerbla_(
 	    char *, integer *);

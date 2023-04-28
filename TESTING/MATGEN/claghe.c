@@ -52,7 +52,7 @@ static integer c__1 = 1;
 	    complex *, integer *, complex *, integer *, complex *, complex *, 
 	    integer *), caxpy_(integer *, complex *, complex *, 
 	    integer *, complex *, integer *);
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int xerbla_(char *, integer *), clarnv_(
 	    integer *, integer *, integer *, complex *);
 

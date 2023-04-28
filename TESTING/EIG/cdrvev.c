@@ -115,7 +115,7 @@ static integer c__2 = 2;
     real conds, anorm;
     integer jsize, nerrs, itype, jtype, ntest;
     real rtulp;
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int slabad_(real *, real *), clatme_(integer *, 
 	    char *, integer *, complex *, integer *, real *, complex *, char *
 , char *, char *, char *, real *, integer *, real *, integer *, 

@@ -44,7 +44,7 @@ static integer c__0 = 0;
 	    integer *, complex *);
     extern doublereal sasum_(integer *, real *, integer *);
     real dummy[1];
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int slabad_(real *, real *);
     extern doublereal clange_(char *, integer *, integer *, complex *, 
 	    integer *, real *);

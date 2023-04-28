@@ -200,7 +200,7 @@ static real c_b43 = 1.f;
 	    integer *), ctest_(integer *, complex *, complex *, complex *, 
 	    real *);
     complex mwpcs[5], mwpct[5];
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int itest1_(integer *, integer *), stest1_(real *,
 	     real *, real *, real *);
     extern integer icamax_(integer *, complex *, integer *);

@@ -46,7 +46,7 @@ static integer c__1 = 1;
 	    integer *, complex *, complex *, integer *), cswap_(
 	    integer *, complex *, integer *, complex *, integer *);
     integer itemp;
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int clarfp_(integer *, complex *, complex *, 
 	    integer *, complex *);
     extern doublereal slamch_(char *);

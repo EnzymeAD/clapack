@@ -46,7 +46,7 @@ static integer c__1 = 1;
     extern /* Subroutine */ int clacn2_(integer *, complex *, complex *, real 
 	    *, integer *, integer *);
     real xnorm;
-    extern doublereal scnrm2_(integer *, complex *, integer *);
+    extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int slabad_(real *, real *);
     extern integer icamax_(integer *, complex *, integer *);
     extern doublereal slamch_(char *);
