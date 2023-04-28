@@ -13,7 +13,7 @@
 #include "f2c.h"
 #include "blaswrap.h"
 
-doublereal scnrm2_(integer *n, complex *x, integer *incx)
+real scnrm2_(integer *n, complex *x, integer *incx)
 {
     /* System generated locals */
     integer i__1, i__2, i__3;
@@ -102,7 +102,7 @@ doublereal scnrm2_(integer *n, complex *x, integer *incx)
     }
 
     ret_val = norm;
-    return ret_val;
+    return (real)ret_val;
 
 /*     End of SCNRM2. */
 
