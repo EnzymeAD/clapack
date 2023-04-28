@@ -97,7 +97,7 @@ f2c_dasum(integer* N,
     return dasum_(N, X, incX);
 }
 
-doublereal 
+real 
 f2c_scnrm2(integer* N, 
            complex* X, integer* incX)
 {
