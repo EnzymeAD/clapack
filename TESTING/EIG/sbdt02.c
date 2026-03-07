@@ -32,7 +32,7 @@ static real c_b9 = 1.f;
     real eps, bnorm;
     extern /* Subroutine */ int sgemv_(char *, integer *, integer *, real *, 
 	    real *, integer *, real *, integer *, real *, real *, integer *);
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *);
     extern doublereal slamch_(char *), slange_(char *, integer *, 

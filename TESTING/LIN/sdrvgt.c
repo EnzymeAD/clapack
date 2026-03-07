@@ -92,7 +92,7 @@ static real c_b44 = 0.f;
 	    integer *, real *, real *, real *);
     char trans[1];
     integer izero, nerrs;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *);
     logical zerot;

@@ -40,7 +40,7 @@ static integer c_n1 = -1;
 	    snrm2_(integer *, real *, integer *);
     integer iseed[4], gpind, iinfo;
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *);
     real ortol;

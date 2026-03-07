@@ -35,7 +35,7 @@ doublereal cqrt12_(integer *m, integer *n, complex *a, integer *lda, real *s,
     extern /* Subroutine */ int cgebd2_(integer *, integer *, complex *, 
 	    integer *, real *, real *, complex *, complex *, complex *, 
 	    integer *);
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real dummy[1];
     extern /* Subroutine */ int saxpy_(integer *, real *, real *, integer *, 
 	    real *, integer *), slabad_(real *, real *);

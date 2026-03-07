@@ -28,7 +28,7 @@ static real c_b7 = -1.f;
     /* Local variables */
     integer j;
     real eps, unfl, anorm;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *);
     real wnorm;

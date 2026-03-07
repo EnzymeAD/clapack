@@ -40,7 +40,7 @@ static real c_b37 = -1.f;
     real work[32];
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     real pmone;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real sminu;
     integer iwork[8];
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 

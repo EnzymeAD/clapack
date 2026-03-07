@@ -42,7 +42,7 @@ static logical c_true = TRUE_;
     real xmax;
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     integer jnext;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real sminw, xnorm;
     extern /* Subroutine */ int saxpy_(integer *, real *, real *, integer *, 
 	    real *, integer *), slaln2_(logical *, integer *, integer *, real 

@@ -87,7 +87,7 @@ static real c_b92 = -1.f;
 	    integer *);
     char trans[1];
     integer nerrs, itype;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     integer lwork;
     extern doublereal sqrt12_(integer *, integer *, real *, integer *, real *, 
 	     real *, integer *), sqrt14_(char *, integer *, integer *, 

@@ -33,7 +33,7 @@ static real c_b12 = -1.f;
     real eps;
     integer lenj;
     real anorm;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *), saxpy_(integer *, real *, real *, integer *, real *, 
 	    integer *);

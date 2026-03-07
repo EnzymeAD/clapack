@@ -34,7 +34,7 @@ static real c_b8 = 0.f;
     real bnorm;
     extern /* Subroutine */ int sgemv_(char *, integer *, integer *, real *, 
 	    real *, integer *, real *, integer *, real *, real *, integer *);
-    extern doublereal sasum_(integer *, real *, integer *), slamch_(char *);
+    extern real sasum_(integer *, real *, integer *), slamch_(char *);
     extern integer isamax_(integer *, real *, integer *);
 
 

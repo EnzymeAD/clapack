@@ -242,7 +242,7 @@ L40:
     extern doublereal snrm2_(integer *, real *, integer *);
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     real stemp[1];
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real strue[8];
     extern /* Subroutine */ int stest_(integer *, real *, real *, real *, 
 	    real *), itest1_(integer *, integer *), stest1_(real *, real *, 

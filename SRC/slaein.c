@@ -41,7 +41,7 @@ static integer c__1 = 1;
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     char trans[1];
     real vcrit;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real rootn, vnorm;
     extern doublereal slapy2_(real *, real *);
     real absbii, absbjj;

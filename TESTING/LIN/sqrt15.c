@@ -43,7 +43,7 @@ static integer c__0 = 0;
 	    real *, integer *, real *), sgemm_(char *, char *, 
 	    integer *, integer *, integer *, real *, real *, integer *, real *
 , integer *, real *, real *, integer *);
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real dummy[1];
     extern doublereal slamch_(char *), slange_(char *, integer *, 
 	    integer *, real *, integer *, real *);

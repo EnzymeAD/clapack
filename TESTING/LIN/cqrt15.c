@@ -42,7 +42,7 @@ static integer c__0 = 0;
 	    complex *, complex *, integer *), clarf_(char *, 
 	    integer *, integer *, complex *, integer *, complex *, complex *, 
 	    integer *, complex *);
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real dummy[1];
     extern real scnrm2_(integer *, complex *, integer *);
     extern /* Subroutine */ int slabad_(real *, real *);

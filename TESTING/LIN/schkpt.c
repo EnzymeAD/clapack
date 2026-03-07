@@ -83,7 +83,7 @@ static integer c__7 = 7;
     extern doublereal sget06_(real *, real *);
     real anorm;
     integer izero, nerrs;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int sptt01_(integer *, real *, real *, real *, 
 	    real *, real *, real *), sptt02_(integer *, integer *, real *, 
 	    real *, real *, integer *, real *, integer *, real *), scopy_(

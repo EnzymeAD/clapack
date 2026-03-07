@@ -95,7 +95,7 @@ static real c_b91 = -1.f;
 	    *, complex *, integer *, complex *, complex *, integer *);
     char trans[1];
     integer nerrs, itype;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     integer lwork;
     extern /* Subroutine */ int cqrt13_(integer *, integer *, integer *, 
 	    complex *, integer *, real *, integer *), cqrt15_(integer *, 

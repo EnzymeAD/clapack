@@ -256,7 +256,7 @@ integer izamax_(integer *n, doublecomplex *zx, integer *incx);
 
 logical lsame_(char *ca, char *cb);
 
-doublereal sasum_(integer *n, real *sx, integer *incx);
+real sasum_(integer *n, real *sx, integer *incx);
 
 /* Subroutine */ int saxpy_(integer *n, real *sa, real *sx, integer *incx, 
 	real *sy, integer *incy);

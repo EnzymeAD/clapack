@@ -40,7 +40,7 @@ static real c_b36 = .5f;
     extern /* Subroutine */ int sscal_(integer *, real *, real *, integer *);
     real tscal, uscal;
     integer jlast;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     logical upper;
     extern /* Subroutine */ int stbsv_(char *, char *, char *, integer *, 
 	    integer *, real *, integer *, real *, integer *), saxpy_(integer *, real *, real *, integer *, real *, 

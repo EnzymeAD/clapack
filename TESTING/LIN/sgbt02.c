@@ -36,7 +36,7 @@ static real c_b10 = 1.f;
     extern /* Subroutine */ int sgbmv_(char *, integer *, integer *, integer *
 , integer *, real *, real *, integer *, real *, integer *, real *, 
 	     real *, integer *);
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real xnorm;
     extern doublereal slamch_(char *);
 

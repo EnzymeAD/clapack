@@ -13,7 +13,7 @@
 #include "f2c.h"
 #include "blaswrap.h"
 
-doublereal sasum_(integer *n, real *sx, integer *incx)
+real sasum_(integer *n, real *sx, integer *incx)
 {
     /* System generated locals */
     integer i__1, i__2;

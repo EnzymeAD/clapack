@@ -29,7 +29,7 @@ static integer c__1 = 1;
     /* Local variables */
     integer j;
     real eps, anorm, bnorm;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real xnorm;
     extern doublereal slamch_(char *);
     extern /* Subroutine */ int slaptm_(integer *, integer *, real *, real *, 

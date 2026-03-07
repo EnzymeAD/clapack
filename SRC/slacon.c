@@ -33,7 +33,7 @@ static real c_b11 = 1.f;
     static integer i__, j, iter;
     static real temp;
     static integer jump, jlast;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     extern /* Subroutine */ int scopy_(integer *, real *, integer *, real *, 
 	    integer *);
     extern integer isamax_(integer *, real *, integer *);

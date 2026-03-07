@@ -30,7 +30,7 @@ static real c_b7 = 1.f;
     /* Local variables */
     integer j;
     real eps, anorm, bnorm;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real xnorm;
     extern /* Subroutine */ int sspmv_(char *, integer *, real *, real *, 
 	    real *, integer *, real *, real *, integer *);

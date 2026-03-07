@@ -32,7 +32,7 @@ static integer c__1 = 1;
     real eps;
     extern logical lsame_(char *, char *);
     real anorm, bnorm;
-    extern doublereal sasum_(integer *, real *, integer *);
+    extern real sasum_(integer *, real *, integer *);
     real xnorm;
     extern doublereal slamch_(char *);
     extern /* Subroutine */ int slagtm_(char *, integer *, integer *, real *, 
