@@ -102,15 +102,15 @@ f2c_zdotc(doublecomplex* retval,
  * Functions having prefixes S D SC DZ
  */
 
-doublereal 
-f2c_snrm2(integer* N, 
+real
+	f2c_snrm2(integer* N, 
           real* X, integer* incX)
 {
     return cblas_snrm2(*N, X, *incX);
 }
 
-doublereal
-f2c_sasum(integer* N, 
+real
+	f2c_sasum(integer* N, 
           real* X, integer* incX)
 {
     return cblas_sasum(*N, X, *incX);
@@ -130,15 +130,15 @@ f2c_dasum(integer* N,
     return cblas_dasum(*N, X, *incX);
 }
 
-doublereal 
-f2c_scnrm2(integer* N, 
+real
+	f2c_scnrm2(integer* N, 
            complex* X, integer* incX)
 {
     return cblas_scnrm2(*N, X, *incX);
 }
 
-doublereal
-f2c_scasum(integer* N, 
+real
+	f2c_scasum(integer* N, 
            complex* X, integer* incX)
 {
     return cblas_scasum(*N, X, *incX);
